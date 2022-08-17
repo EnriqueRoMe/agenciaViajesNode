@@ -1,0 +1,34 @@
+extends ./layout/index
+
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5
+                img(src="/img/nosotros.jpg", alt="Imagen sobre nosotros", class="img-fluid")
+
+            .col-md-7
+                h1 #{pagina}
+                blockquote  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet enim orci. Nunc ac euismod mauris, vel gravida urna. Phasellus ut lacus in nunc aliquam facilisis ut ut justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque malesuada iaculis varius. In lacinia mauris vel pharetra placerat. Donec bibendum tincidunt sem sed facilisis. Sed vestibulum orci id mauris imperdiet, a rhoncus erat volutpat. 
+
+                p Donec vitae dictum lacus, nec lacinia urna. Etiam sollicitudin auctor pretium. Integer ornare, quam vel venenatis vestibulum, ligula diam accumsan tortor, non aliquam nisi magna et dui. Aenean tempus vestibulum rutrum. Nam dictum odio nibh, fermentum ornare ante dictum ut.
+
+                p Nullam at nunc sed arcu mollis mattis. In in nisl quis magna ultricies semper. Mauris tristique congue odio sit amet feugiat. Ut placerat sapien eget vehicula pharetra. Praesent eget molestie sapien. Donec sollicitudin purus eu orci vehicula tristique. Phasellus sollicitudin risus et ultrices vestibulum. Duis sed metus id est tempor scelerisque nec sit amet risus. 
+
+    .listado-iconos 
+        .container.my-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="/img/icono_seguridad.svg", alt="Icono seguridad")
+                    h2 Seguridad 
+                    p  Nullam at nunc sed arcu mollis mattis. In in nisl quis magna ultricies semper.
+
+                .col-md-4 
+                    img(src="/img/icono_precios.svg", alt="Icono precios")
+                    h2 Precios 
+                    p  Nullam at nunc sed arcu mollis mattis. In in nisl quis magna ultricies semper.
+                
+                .col-md-4 
+                    img(src="/img/icono_destinos.svg", alt="Icono destinos")
+                    h2 Destinos 
+                    p  Nullam at nunc sed arcu mollis mattis. In in nisl quis magna ultricies semper.
